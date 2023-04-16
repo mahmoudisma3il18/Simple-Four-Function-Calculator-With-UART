@@ -16,3 +16,10 @@ A simple calculator program that reads two digits and an operator from the user 
 **7.Prompt the user to continue the program by entering 'y' or 'n', and continue or exit the program based on the input.**
 
 The program supports basic arithmetic operations such as addition, subtraction, multiplication, and division, and displays the result with two decimal places. If the user enters an incorrect operator, the program displays an error message and asks the user to enter the correct operator.
+
+** Conection **
+![image](https://user-images.githubusercontent.com/103974340/232324741-eac0eefa-f0a7-47f6-9478-529be874c830.png)
+
+
+** Testing  **
+![image](https://user-images.githubusercontent.com/103974340/232324770-49d4bd46-d432-401a-88e0-a375aa2c305b.png)
