@@ -1,5 +1,5 @@
 # Simple-Four-Function-Calculator-With-UART
-A simple calculator program that reads two digits and an operator from the user via a UART interface, performs the requested operation, and then displays the result on the terminal. It uses the following steps:
+A simple calculator program using **Atmega3289** that reads two digits and an operator from the user via a UART interface, performs the requested operation, and then displays the result on the terminal. It uses the following steps:
 
 **1.Initialize the UART communication with a baud rate of 4800.**
 
