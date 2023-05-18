@@ -14,7 +14,7 @@ To run the calculator, you will need the following:
 2. UART terminal software (e.g., PuTTY, RealTerm, Tera Term)
 3. Development environment and toolchain compatible with your microcontroller board
 
-##Getting Started
+## Getting Started
 Follow these steps to get started with the calculator:
 
 1. Clone the repository to your local machine
