@@ -1,4 +1,4 @@
-Simple Four-Function Calculator with UART
+## **Simple Four-Function Calculator with UART**
 This repository contains a simple four-function calculator implemented using UART communication. The calculator performs addition, subtraction, multiplication, and division operations on two numbers, which are provided through UART input.
 
 Features
