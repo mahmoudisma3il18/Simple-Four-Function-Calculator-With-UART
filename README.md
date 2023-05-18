@@ -54,6 +54,6 @@ When contributing, please follow the existing code style and conventions. Provid
 ## Contact
 If you have any questions, feedback, or suggestions, feel free to contact the project maintainer:
 
-Mahmoud Ismaeil
-Email: maahmoudismaill@gmail.com
-GitHub: mahmoudisma3il18
+* Mahmoud Ismaeil
+* Email: maahmoudismaill@gmail.com
+* GitHub: mahmoudisma3il18
