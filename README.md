@@ -1,12 +1,13 @@
 ## **Simple Four-Function Calculator with UART**
 This repository contains a simple four-function calculator implemented using UART communication. The calculator performs addition, subtraction, multiplication, and division operations on two numbers, which are provided through UART input.
 
-Features
+## Features
 Supports addition, subtraction, multiplication, and division operations
 Uses UART communication for input and output
 Simple and intuitive user interface
 Error handling for invalid input
-Requirements
+
+## Requirements
 To run the calculator, you will need the following:
 
 A microcontroller board with UART capabilities
@@ -34,7 +35,7 @@ Run the program on the microcontroller board.
 
 You can now start using the calculator by entering arithmetic expressions through the UART terminal.
 
-Usage
+## Usage
 To use the calculator, follow these guidelines:
 
 Open the UART terminal software and ensure it is configured correctly.
@@ -49,7 +50,7 @@ The result of the calculation will be displayed in the UART terminal.
 
 Repeat the above steps to perform additional calculations.
 
-Error Handling
+## Error Handling
 The calculator includes error handling for the following scenarios:
 
 Invalid input format: If the entered arithmetic expression does not follow the expected format (operand1 operator operand2), an error message will be displayed in the UART terminal.
@@ -58,20 +59,17 @@ Division by zero: If the divisor in a division operation is zero, an error messa
 
 Make sure to handle these errors appropriately in your application logic.
 
-Contributing
+## Contributing
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 When contributing, please follow the existing code style and conventions. Provide clear and concise commit messages and documentation for your changes.
 
-License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute the code for both commercial and non-commercial purposes.
 
-Acknowledgements
 This calculator project was inspired by the need for a simple and educational example of UART communication in microcontroller applications. Special thanks to the contributors and maintainers of the libraries and tools used in this project.
 
-Contact
+## Contact
 If you have any questions, feedback, or suggestions, feel free to contact the project maintainer:
 
 Mahmoud Ismaeil
-Email: your-email@example.com
+Email: maahmoudismaill@gmail.com
 GitHub: mahmoudisma3il18
