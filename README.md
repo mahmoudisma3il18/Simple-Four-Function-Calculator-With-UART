@@ -2,10 +2,10 @@
 This repository contains a simple four-function calculator implemented using UART communication. The calculator performs addition, subtraction, multiplication, and division operations on two numbers, which are provided through UART input.
 
 ## Features
-1.Supports addition, subtraction, multiplication, and division operations
-2.Uses UART communication for input and output
-3.Simple and intuitive user interface
-4.Error handling for invalid input
+1. Supports addition, subtraction, multiplication, and division operations
+2. Uses UART communication for input and output
+3. Simple and intuitive user interface
+4. Error handling for invalid input
 
 ## Requirements
 To run the calculator, you will need the following:
