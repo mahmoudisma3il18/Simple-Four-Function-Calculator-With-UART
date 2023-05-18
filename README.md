@@ -1,25 +1,77 @@
-# Simple-Four-Function-Calculator-With-UART
-A simple calculator program using **Atmega328P** that reads two digits and an operator from the user via a UART interface, performs the requested operation, and then displays the result on the terminal. It uses the following steps:
+Simple Four-Function Calculator with UART
+This repository contains a simple four-function calculator implemented using UART communication. The calculator performs addition, subtraction, multiplication, and division operations on two numbers, which are provided through UART input.
 
-**1.Initialize the UART communication with a baud rate of 4800.**
+Features
+Supports addition, subtraction, multiplication, and division operations
+Uses UART communication for input and output
+Simple and intuitive user interface
+Error handling for invalid input
+Requirements
+To run the calculator, you will need the following:
 
-**2.Define variables for the two digits, the operator, a flag for continuing the program, and a float variable for the result of the operation.**
+A microcontroller board with UART capabilities
+UART terminal software (e.g., PuTTY, RealTerm, Tera Term)
+Development environment and toolchain compatible with your microcontroller board
+Getting Started
+Follow these steps to get started with the calculator:
 
-**3.Use a do-while loop to repeatedly prompt the user for two digits and an operator, perform the operation, display the result, and ask the user if they want to perform another operation.**
-
-**4.Convert the character inputs for the digits and operator into integer and float values using ASCII arithmetic and switch statement.**
-
-**5.Perform the selected operation on the two integer values and store the result in a float variable.**
-
-**6.Convert the float result into a character array using the "dtostrf" function and display the result on the terminal.**
-
-**7.Prompt the user to continue the program by entering 'y' or 'n', and continue or exit the program based on the input.**
-
-The program supports basic arithmetic operations such as addition, subtraction, multiplication, and division, and displays the result with two decimal places. If the user enters an incorrect operator, the program displays an error message and asks the user to enter the correct operator.
-
-** Conection **
-![image](https://user-images.githubusercontent.com/103974340/232324741-eac0eefa-f0a7-47f6-9478-529be874c830.png)
+Clone the repository to your local machine:
 
 
-** Testing  **
-![image](https://user-images.githubusercontent.com/103974340/232324770-49d4bd46-d432-401a-88e0-a375aa2c305b.png)
+Copy code
+git clone https://github.com/mahmoudisma3il18/Simple-Four-Function-Calculator-With-UART.git
+Open the project in your preferred development environment.
+
+Configure the UART settings in the code according to your microcontroller board's specifications.
+
+Build and flash the code to your microcontroller board.
+
+Connect the microcontroller board to your computer via UART.
+
+Open a UART terminal software and configure it to match the UART settings in the code.
+
+Run the program on the microcontroller board.
+
+You can now start using the calculator by entering arithmetic expressions through the UART terminal.
+
+Usage
+To use the calculator, follow these guidelines:
+
+Open the UART terminal software and ensure it is configured correctly.
+
+Enter an arithmetic expression using the following format: operand1 operator operand2, where operand1 and operand2 are the numbers on which the operation will be performed, and operator is one of the following: + (addition), - (subtraction), * (multiplication), / (division).
+
+For example, to perform the addition of 5 and 3, enter 5 + 3.
+
+Press the Enter key to send the input to the microcontroller board.
+
+The result of the calculation will be displayed in the UART terminal.
+
+Repeat the above steps to perform additional calculations.
+
+Error Handling
+The calculator includes error handling for the following scenarios:
+
+Invalid input format: If the entered arithmetic expression does not follow the expected format (operand1 operator operand2), an error message will be displayed in the UART terminal.
+
+Division by zero: If the divisor in a division operation is zero, an error message indicating division by zero will be displayed in the UART terminal.
+
+Make sure to handle these errors appropriately in your application logic.
+
+Contributing
+Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+When contributing, please follow the existing code style and conventions. Provide clear and concise commit messages and documentation for your changes.
+
+License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code for both commercial and non-commercial purposes.
+
+Acknowledgements
+This calculator project was inspired by the need for a simple and educational example of UART communication in microcontroller applications. Special thanks to the contributors and maintainers of the libraries and tools used in this project.
+
+Contact
+If you have any questions, feedback, or suggestions, feel free to contact the project maintainer:
+
+Mahmoud Ismaeil
+Email: your-email@example.com
+GitHub: mahmoudisma3il18
